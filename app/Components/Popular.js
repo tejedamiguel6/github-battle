@@ -99,7 +99,7 @@ componentDidMount () {
 					/>
 					{!this.state.repos
 					? <p>LOADING</p>
-					: <RepoGrid repos = {this.state.repos} /> }
+					: <RepoGrid repos = {this.state.repos} />
 					}
 			</div>
 
